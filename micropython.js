@@ -1647,7 +1647,7 @@ function createExportWrapper(name, fixedasm) {
 }
 
 var wasmBinaryFile;
-  wasmBinaryFile = 'micropython.wasm';
+  wasmBinaryFile = 'https://cdn.jsdelivr.net/gh/W0W53R/micropython-wasm-portable@master/micropython.wasm';
   if (!isDataURI(wasmBinaryFile)) {
     wasmBinaryFile = locateFile(wasmBinaryFile);
   }
